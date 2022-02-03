@@ -58,5 +58,8 @@
       "gulp-eslint",
       "gulp-mocha"
     ]
+  },
+  "directories": {
+    "test": "test"
   }
 }
