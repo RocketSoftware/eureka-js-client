@@ -1,8 +1,8 @@
 {
-  "name": "eureka-js-client",
-  "version": "4.5.0",
+  "name": "@rocketsoftware/eureka-js-client",
+  "version": "4.5.1",
   "description": "A JavaScript implementation the Netflix OSS service registry, Eureka.",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "prepublish": "gulp",
     "test": "gulp test",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jquatier/eureka-js-client.git"
+    "url": "https://github.com/rocketsoftware/eureka-js-client.git"
   },
   "keywords": [
     "eureka",
@@ -22,14 +22,14 @@
   "author": "JQ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jquatier/eureka-js-client/issues"
+    "url": "https://github.com/rocketsoftware/eureka-js-client/issues"
   },
-  "homepage": "https://github.com/jquatier/eureka-js-client",
+  "homepage": "https://github.com/rocketsoftware/eureka-js-client",
   "dependencies": {
     "async": "^2.0.1",
     "js-yaml": "^3.3.1",
     "lodash": "^4.13.1",
-    "request": "^2.83.0"
+    "@rocketsoftware/request": "2.88.1"
   },
   "devDependencies": {
     "babel-core": "^6.4.5",
