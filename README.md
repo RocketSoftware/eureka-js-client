@@ -3,7 +3,6 @@
 This fork differs from [eureka-js-client](https://www.npmjs.com/package/eureka-js-client) in one way:
 - Use @RocketSoftware/request fork
 
-
 # eureka-js-client
 [![npm version](https://badge.fury.io/js/eureka-js-client.svg)](http://badge.fury.io/js/eureka-js-client) [![Build Status](https://api.travis-ci.org/jquatier/eureka-js-client.svg?branch=master)](https://travis-ci.org/jquatier/eureka-js-client) [![Coverage Status](https://coveralls.io/repos/jquatier/eureka-js-client/badge.svg?branch=master&service=github)](https://coveralls.io/github/jquatier/eureka-js-client?branch=master) [![Dependency Status](https://david-dm.org/jquatier/eureka-js-client.svg)](https://david-dm.org/jquatier/eureka-js-client) [![bitHound Overall Score](https://www.bithound.io/github/jquatier/eureka-js-client/badges/score.svg)](https://www.bithound.io/github/jquatier/eureka-js-client)
 
@@ -50,7 +49,7 @@ const client = new Eureka({
 });
 ```
 
-The Eureka client searches for the YAML file `eureka-client.yml` in the current working directory. It further searches for environment specific overrides in the environment specific YAML files (e.g. `eureka-client-test.yml`). The environment is typically `development` or `production`, and is determined by the `NODE_ENV` environment variable. The options passed to the constructor overwrite any values that are set in configuration files.
+The Eureka client searches for the YAML file `eureka-client.yml` in the current working directory. It further searches for environment specific overrides in the environment specific YAML files (e.g. `eureka-client-test.yml`). The environment is typically `development` or `production`, and is determined by environment variables in this order: `EUREKA_ENV`, if present, or `NODE_ENV`, if present. Otherwise it defaults to `development`. The options passed to the constructor overwrite any values that are set in configuration files.
 
 You can configure a custom directory to load the configuration files from by specifying a `cwd` option in the object passed to the `Eureka` constructor.
 
