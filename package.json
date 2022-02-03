@@ -1,8 +1,8 @@
 {
   "name": "@rocketsoftware/eureka-js-client",
-  "version": "4.5.1",
+  "version": "4.5.2",
   "description": "A JavaScript implementation the Netflix OSS service registry, Eureka.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "prepublish": "gulp",
     "test": "gulp test",
