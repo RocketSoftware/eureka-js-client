@@ -1,4 +1,4 @@
-import request from 'request';
+import request from '@rocketsoftware/request';
 import fs from 'fs';
 import yaml from 'js-yaml';
 import { merge, findIndex } from 'lodash';

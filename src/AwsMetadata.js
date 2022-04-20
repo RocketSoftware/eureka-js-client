@@ -1,4 +1,4 @@
-import request from 'request';
+import request from '@rocketsoftware/request';
 import async from 'async';
 import Logger from './Logger';
 
