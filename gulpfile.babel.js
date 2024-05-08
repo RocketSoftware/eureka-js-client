@@ -5,7 +5,7 @@ import eslint from 'gulp-eslint';
 import { Instrumenter } from 'babel-istanbul';
 import istanbul from 'gulp-istanbul';
 import env from 'gulp-env';
-import request from 'request';
+import request from '@cypress/request';
 import { spawn, exec } from 'child_process';
 
 gulp.task('build', () => (

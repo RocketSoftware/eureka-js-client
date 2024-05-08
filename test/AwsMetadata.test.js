@@ -1,7 +1,7 @@
 import sinon from 'sinon';
 import chai, { expect } from 'chai';
 import sinonChai from 'sinon-chai';
-import request from 'request';
+import request from '@cypress/request';
 import AwsMetadata from '../src/AwsMetadata';
 
 chai.use(sinonChai);

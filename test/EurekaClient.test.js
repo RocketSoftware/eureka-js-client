@@ -2,7 +2,7 @@
 import sinon from 'sinon';
 import chai, { expect } from 'chai';
 import sinonChai from 'sinon-chai';
-import request from 'request';
+import request from '@cypress/request';
 import { EventEmitter } from 'events';
 import { join } from 'path';
 import merge from 'lodash/merge';
