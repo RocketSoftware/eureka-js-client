@@ -1,6 +1,6 @@
 {
   "name": "@rocketsoftware/eureka-js-client",
-  "version": "4.5.7",
+  "version": "4.5.8",
   "description": "A JavaScript implementation the Netflix OSS service registry, Eureka.",
   "main": "lib/index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/rocketsoftware/eureka-js-client",
   "dependencies": {
     "@cypress/request": "^3.0.1",
-    "async": "^3.2.3",
+    "async": "^3.2.6",
     "js-yaml": "^3.3.1",
     "lodash": "^4.13.1"
   },
