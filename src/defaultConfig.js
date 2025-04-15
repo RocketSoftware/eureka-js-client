@@ -9,7 +9,7 @@ export default {
     requestRetryDelay: 500,
     fetchRegistry: true,
     filterUpInstances: true,
-    servicePath: '/eureka/v2/apps/',
+    servicePath: '/eureka/apps/',
     ssl: false,
     useDns: false,
     preferSameZone: true,
