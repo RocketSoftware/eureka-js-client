@@ -26,10 +26,10 @@
   },
   "homepage": "https://github.com/rocketsoftware/eureka-js-client",
   "dependencies": {
-    "@cypress/request": "^3.0.1",
+    "@cypress/request": "^3.0.10",
     "async": "^3.2.6",
     "js-yaml": "^3.3.1",
-    "lodash": "^4.13.1"
+    "lodash": "^4.17.23"
   },
   "devDependencies": {
     "babel-core": "^6.4.5",
